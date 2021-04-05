@@ -104,10 +104,10 @@ button{
   vertical-align: middle;
 }
 
-.list-item > input[type="checkbox"] {
+.checkbox {
   margin: 0 10px;
 }
-.list-item > label {
+.task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -129,7 +129,7 @@ button{
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks .task {
   text-decoration: line-through;
   color: #888;
 }
