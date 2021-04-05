@@ -10,10 +10,10 @@ body {
   display: block;
   text-align: right;
 }
-.header-img {
+.header__img {
   width: 100%;
 }
-.header-link {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -83,14 +83,14 @@ button{
 }
 
 /* New Task */
-.title-new-task {
+.new-task__title {
   display: block;
   margin: 0 0 20px;
 }
 #new-task {
   width: 318px;
 }
-.btn_main:hover {
+.new-task__btn:hover {
   color: #0FC57C;
 }
 
