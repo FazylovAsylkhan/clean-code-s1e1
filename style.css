@@ -114,7 +114,7 @@ button{
   width: 226px;
 }
 .list-item > .input {
-  width: 226px
+  width: 226px;
 }
 .delete:hover {
   color: #CF2323;
@@ -130,13 +130,13 @@ button{
 
 /* Completed */
 #completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list-item .input {
-  display: none
+  display: none;
 }
 
 .edit-mode .input {
